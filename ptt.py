@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#author Nash Rafeeq 
 
 import socket
 import re
@@ -58,7 +59,7 @@ def read_file(portfile, header):
 if __name__ == '__main__':
 	import argparse
 	parser = argparse.ArgumentParser(
-		prog="Port Test Tool",
+		prog="Ptt.exe",
 		formatter_class=argparse.RawDescriptionHelpFormatter,
 		description='''
 			Port Test Tool (Cause Fuck TCS)

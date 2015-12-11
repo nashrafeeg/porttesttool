@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['ptt.py'],
-             pathex=['C:\\Users\\Nash\\Dropbox\\Workspace\\porttest'],
+             pathex=['C:\\Users\\Nash\\Dropbox\\Workspace\\porttesttool'],
              binaries=None,
              datas=None,
              hiddenimports=[],
