@@ -1,0 +1,8 @@
+"Host,PORT,PROTOCOL,STATUS,FAILED REASON"
+nashath.xyz,22,TCP,OK
+nashath.xyz,80,UDP,OK
+nashath.xyz,443,TCP,OK
+8.8.8.8,53,UDP,OK
+luna.nashath.net,443,TCP,Fail,[Errno 10061] No connection could be made because the target machine actively refused it
+badhost.nashath.net,80,TCP,Fail,[Errno 11001] getaddrinfo failed
+192.168.10.111,49,TCP,Fail,"[Errno 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond"
